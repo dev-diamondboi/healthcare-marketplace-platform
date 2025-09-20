@@ -37,7 +37,7 @@ export default function PatientDashboard() {
                 <Settings className="h-5 w-5" />
               </Button>
               <Avatar>
-                <AvatarImage src="/placeholder-user.jpg" />
+                <AvatarImage src="/patient-avatar.png" />
                 <AvatarFallback>JD</AvatarFallback>
               </Avatar>
             </div>
@@ -118,7 +118,7 @@ export default function PatientDashboard() {
                       time: "10:30 AM",
                       type: "Follow-up",
                       location: "Heart Center, Room 205",
-                      avatar: "/professional-female-doctor.png",
+                      avatar: "/doctor-sarah.png",
                     },
                     {
                       doctor: "Dr. Michael Chen",
@@ -127,7 +127,7 @@ export default function PatientDashboard() {
                       time: "2:15 PM",
                       type: "Consultation",
                       location: "Skin Clinic, Room 102",
-                      avatar: "/professional-male-doctor.png",
+                      avatar: "/doctor-michael.png",
                     },
                     {
                       doctor: "Dr. Emily Rodriguez",
@@ -136,7 +136,7 @@ export default function PatientDashboard() {
                       time: "9:00 AM",
                       type: "Annual Checkup",
                       location: "Main Clinic, Room 301",
-                      avatar: "/professional-female-pediatrician.png",
+                      avatar: "/doctor-emily.png",
                     },
                   ].map((appointment, index) => (
                     <div
@@ -253,7 +253,7 @@ export default function PatientDashboard() {
               <CardContent>
                 <div className="text-center mb-4">
                   <Avatar className="w-20 h-20 mx-auto mb-3">
-                    <AvatarImage src="/placeholder-user.jpg" />
+                    <AvatarImage src="/patient-avatar.png" />
                     <AvatarFallback>JD</AvatarFallback>
                   </Avatar>
                   <h3 className="font-semibold">John Doe</h3>
